@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas 1,2,3,4</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="titulo">Son Goku Datos y Trivia </h1>
+    <h2 class="familiatitulo">Su Familia</h2>
+    <ul class="familia">
+        <li >Milk: <span>Esposa</span> </li>
+        <li >Gohan: <span>Hijo Mayor</span></li>
+        <li >Goten: <span>Hijo menor</span></li>
+        <li>Gine: <span>Madre</span></li>
+        <li >Bardock: <span>Padre</span></li>
+        <li >Radits: <span>Hermano</span></li>
+    </ul>
+
+    <h2 class="enemigostitulo">Enemigos</h2>
+    <ol class="enemigos">    
+        <li>Freezer</li>
+        <li>Androides</li>
+        <li>Cell</li>
+        <li>Majin Boo</li>
+     </ol>
+
+     <h2 class="aliadostitulo">Aliados</h2>
+     <ul class="aliados">       
+            <li>Krilin</li>
+            <li>Yamcha</li>
+            <li>Bulma</li>
+            <li>Chaos</li>
+            <li>Picollo</li>
+            <li>Tenshinhan</li>
+            <li>Oob</li> 
+     </ul>
+    <h2 class="Debuttitulo">Debut</h2>
+    <ul class="debut">
+        <li>Manga: Capítulo 1</li>
+        <li>  Película: La princesa durmiente en el castillo del espíritu maligno</li>
+        <li>   Videojuego: Dragon Daihikyou</li>
+        <li>  Novela ligera: Broly </li>
+    </ul>
+    <hr>
+
+    <form action="Trivia"> <h1 class="Trivia">Trivia</h1>
+<ul>
+    <li>
+        <label for="Nombre">Nombre:</label>
+        <input type="text">
+      
+    
+    </li>
+    <br>
+    <li>
+        <label for="Apellido">Apellido:</label>
+        <input type="text">
+        <br>
+    </li>
+    <br>
+
+    <li>
+        <label for="Email">Email</label>
+        <input type="email" name="" id="">
+               
+    </li>
+    
+    <br>
+
+    <li>
+        <label for="Buenos o Malos">Prefieres Heroes o Villanos</label>
+        <input type="radio" id="hombre" name="BoM" value="Heroes" checked="">
+        <label for="Heroes">Heroes</label>
+        <input type="radio" id="mujer" name="BoM" value="Villanos " checked="">
+        <label for="Villanos">Villanos</label>
+
+    </li>
+    <br>
+
+  
+
+ 
+<li>
+    <label for="Enemigos">¿Quien fue el primer enemigo que derroto Goku?:</label>
+<select name="Enemigos" id="Enemigos">
+  <option value="Freezer">Freezer</option>
+  <option value="Cell">Cell</option>
+  <option value="Androides">Androides</option>
+  <option value="Majin Boo">Majin Boo</option>
+</select>
+<label for="Justifique">Justifique su respuesta</label>
+ <textarea name="Justifique" id="" cols="20" rows="2"></textarea>        </li>
+<br>
+
+<li>    
+<label for="Gine">Quien es la madre de Goku</label> 
+<select name="MadreGoku" id="MadreGoku">
+    <option value="Bulma">Bulma</option>
+    <option value="Milk">Milk</option>
+    <option value="Gine">Gine</option>
+    <option value="Maron">Maron</option>
+</select>  </li>
+
+
+<li>
+    <label for="Pregunta">¿En que capitulo sale su madre?</label>
+    <textarea name="textoMadre" id="textoMadre" cols="30" rows="2"></textarea>
+</li>
+
+<br>
+
+<li>   <label for="sagafavorita">¿Cual es tu saga favorita?</label>   
+        <select name="sagafavorita" id="sagafavorita">
+            <option value="Freezer">Freezer</option>
+            <option value="Androides">Androides</option>
+            <option value="Cell">Cell</option>
+            <option value="Majin Boo">Majin Boo</option>
+        </select> 
+
+
+</li>
+
+
+<br>
+
+<li>
+ <label for="DBfavorito">¿Cual es tu dragon ball favorito?</label>
+    <input type="radio" name="DBfavorito" id="">
+    <label for="">Dragon ball</label>
+    <input type="radio" name="DBfavorito" id="">
+    <label for="">Dragon Ball Z</label>
+    <input type="radio" name="DBfavorito" id="">
+    <label for="">Dragon Ball GT</label>
+    <input type="radio" name="DBfavorito" id="">
+    <label for="">Dragon Ball Super</label>
+
+</li>
+<br>
+
+
+
+<li>
+<input type="checkbox" name="Puntaje" id="">
+<label for="Puntaje">Deseo Recibir mi puntaje en mi Email</label>
+
+</li>
+<br>
+<li>
+   
+
+
+        <!-- El nombre de los "name" debe ser igual al de el label "for" -->
+    <label for="Disfrutaste la Trivia?">Disfrutaste la Trivia?</label>
+    <input type="radio" id="RespuestaSi" name="Disfrutaste la Trivia?" value="RespuestaSi" >
+    <label for="Heroes">Si</label>
+
+    <input type="radio" id="RespuestaNo" name="Disfrutaste la Trivia?" value="RespuestaNo " >
+    <label for="Villanos">No</label>
+
+</li>
+
+       
+    <input class="enviar" type="button" value="Enviar ---->">
+  
+
+
+</ul>
+</form>
+
+</body>
+
+<footer >Gracias por responder :D</footer>
+</html>
