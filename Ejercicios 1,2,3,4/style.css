@@ -1,0 +1,50 @@
+span { color: black;
+        font-weight: bold;
+        font: size 15px;
+        ;}
+body { background: rgb(13,208,127);
+    background: linear-gradient(344deg, rgba(13,208,127,1) 0%, rgba(222,165,21,0.8715861344537815) 47%, rgba(252,176,69,1) 100%);
+    }
+        .familia { font-size: 20px;
+            padding-top: 1px;
+            padding-bottom: 10px;
+            }
+
+.enemigos { color: red;
+            font-weight: bold;
+            font-size: 20px;}
+
+.aliados { color: green;
+            font-weight:bold;
+            font-size: 20px;}
+
+            hr{margin-top: 3em;
+                margin-bottom: 3em;
+                    }
+.debut {;
+        color: indigo;
+        font-weight: bold;
+        font-size: 20px;}
+
+.titulo {color:whitesmoke;
+        background-color:black;
+        border-radius: 6px;
+        margin-bottom: 2em;
+        margin-top: 0.5em;
+        text-align: center;
+    }
+
+.Trivia { font-style: italic;}
+
+.Debuttitulo { font-style: italic;}
+.familiatitulo{font-style: italic;}
+.enemigostitulo{font-style: italic;}
+.aliadostitulo {font-style: italic;}    
+
+.enviar { color: black;
+        background-color: orange;
+        font-style: bold;
+        margin-top: 1em;}
+
+footer { text-align: center;
+        font-style: italic; }
