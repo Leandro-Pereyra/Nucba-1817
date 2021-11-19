@@ -2,29 +2,50 @@ span { color: black;
         font-weight: bold;
         font: size 15px;
         ;}
+
+
+        @font-face {
+                font-family:DBZ ;
+                src: url(./Fuentes/Saiyan-Sans.ttf);
+        }
+       
+
 body { background: rgb(13,208,127);
     background: linear-gradient(344deg, rgba(13,208,127,1) 0%, rgba(222,165,21,0.8715861344537815) 47%, rgba(252,176,69,1) 100%);
     }
         .familia { font-size: 20px;
             padding-top: 1px;
             padding-bottom: 10px;
+            border: 10px solid red;
+            background-color: seagreen;
             }
 
 .enemigos { color: red;
             font-weight: bold;
-            font-size: 20px;}
+            font-size: 20px;
+            border: 10px solid lightgray;
+            background-color: lightgreen;
+                padding: 15px;}
 
 .aliados { color: green;
             font-weight:bold;
-            font-size: 20px;}
+            font-size: 20px;
+            border: 10px solid saddlebrown  ;
+            background-color:  skyblue ;
+            padding: 10px;
+            }
 
             hr{margin-top: 3em;
-                margin-bottom: 3em;
+                 margin-bottom: 3em;
                     }
-.debut {;
+.debut {
         color: indigo;
         font-weight: bold;
-        font-size: 20px;}
+        font-size: 20px;
+        border: 10px solid red;
+        background-color: springgreen;
+        padding:15px;
+        }
 
 .titulo {color:whitesmoke;
         background-color:black;
@@ -32,6 +53,8 @@ body { background: rgb(13,208,127);
         margin-bottom: 2em;
         margin-top: 0.5em;
         text-align: center;
+        font-family: DBZ;
+        font-size: 40px;
     }
 
 .Trivia { font-style: italic;}
