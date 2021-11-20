@@ -6,18 +6,27 @@ span { color: black;
 
         @font-face {
                 font-family:DBZ ;
-                src: url(./Fuentes/Saiyan-Sans.ttf);
-        }
+                src: url(./Fuentes/Saiyan-Sans.ttf);}
+        
+                
+        
+       
        
 
 body { background: rgb(13,208,127);
-    background: linear-gradient(344deg, rgba(13,208,127,1) 0%, rgba(222,165,21,0.8715861344537815) 47%, rgba(252,176,69,1) 100%);
-    }
+    background: linear-gradient(344deg, rgba(13,208,127,1) 0%, rgba(222,165,21,0.8715861344537815) 47%, rgba(252,176,69,1) 100%);}
+    
         .familia { font-size: 20px;
-            padding-top: 1px;
+            padding-top: 10px;
             padding-bottom: 10px;
             border: 10px solid red;
             background-color: seagreen;
+            margin-top: -10px;
+            text-align: ;
+            
+           
+            
+
             }
 
 .enemigos { color: red;
@@ -25,7 +34,8 @@ body { background: rgb(13,208,127);
             font-size: 20px;
             border: 10px solid lightgray;
             background-color: lightgreen;
-                padding: 15px;}
+                padding: 15px;
+            margin-top: -20px;}
 
 .aliados { color: green;
             font-weight:bold;
@@ -33,6 +43,7 @@ body { background: rgb(13,208,127);
             border: 10px solid saddlebrown  ;
             background-color:  skyblue ;
             padding: 10px;
+            margin-top: -20px;
             }
 
             hr{margin-top: 3em;
@@ -45,29 +56,70 @@ body { background: rgb(13,208,127);
         border: 10px solid red;
         background-color: springgreen;
         padding:15px;
+        margin-top: -20px;
         }
 
 .titulo {color:whitesmoke;
         background-color:black;
         border-radius: 6px;
-        margin-bottom: 2em;
+        margin-bottom: -20px;
         margin-top: 0.5em;
         text-align: center;
         font-family: DBZ;
         font-size: 40px;
+        
     }
 
-.Trivia { font-style: italic;}
+.Trivia { font-style: italic;   
+                margin-top: -50px;
+                text-align: center;
+                background-color: black;
+                color: white;
+                border-radius: 1em;
+                border: 5px solid purple;
+                border-width: 10px;
+                opacity: 0.9;
+              
+                }
 
 .Debuttitulo { font-style: italic;}
-.familiatitulo{font-style: italic;}
-.enemigostitulo{font-style: italic;}
+
+.familiatitulo{font-style: bold;
+                border: black solid 3.5px;
+                border-radius: 20px;
+                background-color: lightskyblue;
+                border-style: dashed;
+                text-align: center;
+                margin-top: 2em;
+                font-family: DBZ ;
+                }
+                
+
+.enemigostitulo{font-style: italic;
+                /* font-family: ; */
+                text-align: center;
+                font-size: 50px;
+                /* color: white; */
+                background-color: pink;
+                /* se pone asi, para que SOLO EL TEXTO sea OPACO, de lo contrario poner opacity:0.3; */
+                color: rgba(0, 0, 0, 0.2);
+                border-bottom: red solid 5px;
+                }
+
 .aliadostitulo {font-style: italic;}    
 
 .enviar { color: black;
         background-color: orange;
         font-style: bold;
         margin-top: 1em;}
+
+
+
+
+
+
+
+
 
 footer { text-align: center;
         font-style: italic;}

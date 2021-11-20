@@ -6,7 +6,11 @@
         
             /* Box model, son como las capas de las cosas en este caso de los parrafos */
             /* 10px ARRIBA, 50px DERECHA, 80px ABAJO, 40px IZQUIERDA */
-            margin: 10px 50px 80px 40px;
+            /* margin: 10px 50px 80px 40px; */
+            /* le puse 85 em para que quedara arriba a la derecha */
+            margin-left: 85em; 
+            width: 100px;
+            
             border: 10px solid turquoise;
 /* Es la distancia entre el contenido y el Border */
             padding: 30px;
@@ -17,10 +21,11 @@
 .parrafo2 {         
         /* en width y height se puede poner el tamaño en px y con overflow auto,hidde,visible, este puede verse con scroll o esconderse, si ponemos AUTO, en width o height, se ajusta automaticamente */
                 width: 100px;
-                height: auto;
+                /* height: auto; */
                 /* El overflow es para cuando el contenido ocupa mas que el elemento     */
-                overflow: scroll;
-                margin: ;
+                /* overflow: scroll; */
+                /* Le puse -35em para que quedara arriba, a la izquierda */
+                margin-top: -35em;
                 border: 10px solid black ;
                 padding: 30px; ;
                 background-color: tomato;
