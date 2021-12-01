@@ -111,9 +111,9 @@ body { background: rgb(13,208,127);
 .enviar { color: black;
         background-color: orange;
         font-style: bold;
-        margin-top: 1em;}
-
-
+        margin-top: 1em;
+        font-size: 25px;
+        }
 
 
 

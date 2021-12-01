@@ -1,0 +1,50 @@
+.contenedor {
+    /* Todo esto sirve como ejemplo copia  y pega */
+
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    /* Me permite cambiar la direccion de los elementos hijos */
+    flex-direction: row;
+    /* Con esto, convertimos en contenedor en "flexible" SIEMPRE SE LE PONE AL PADRE / CONTENEDOR */
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    /* Con flex-wrap:wrap; Se wrapean los elementos, Cuando ocupan mas de lo que ocupa el padre, se van hacia abajo,
+    en lugar de sobreponerse entre ellos */
+
+    /* Esto es responsivo, ya que antes de tocarse los elementos van hacia abajo, esto sirve para Celulares */
+    flex-wrap: wrap;
+
+
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+}
+
+.c-1 {
+    background-color: black;
+}
+
+.c-2 {
+    background-color: brown;
+}
+
+.c-3 {
+    background-color: yellow;
+}
+
+.c-4 {
+    background-color: pink;
+}
+
+.c-5 {
+    background-color: violet;
+}
+
+.c-6 {
+    background-color: red;
+}
