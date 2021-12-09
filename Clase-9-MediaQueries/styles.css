@@ -1,0 +1,15 @@
+.cuadrado { background-color: blue;
+                width: 100px;
+                height: 100px;
+                background: rgb(13,208,203);
+background: linear-gradient(344deg, rgba(13,208,203,1) 0%, rgba(222,21,174,0.7819502801120448) 79%, rgba(174,252,69,1) 99%);}
+
+                /* Esto es MEDIA QUERIES */
+
+@media (max-width:700px) { .cuadrado { 
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);; }   }
+
+
+
+
