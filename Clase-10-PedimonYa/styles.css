@@ -1,11 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300,400;0,800;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}   
+body { margin: 0px;
+       padding: 0;
+       font-family: 'Poppins', sans-serif;}
 
 
-.encabezado {   
-                width: 10%;
-                height: 10vh;
-                background-color: yellow;
+       .encabezado { background-color: #F7DE81;
+                        width: 100%;
+                        height: 100vh;
+    
+        }
+
+        .navegacion{display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    height: 10%;
+                    }
+
+        
+        .contenedor-info { 
+        display: flex;
+        width: 100%;
+        height: 90%;
+        justify-content: space-around;
+        align-items: center;}
+
+        .contenedor-texto {
+            display: flex;
+            
+            align-items: flex-start;
+            width: 30%;
+            flex-direction: column;
+        }
+
+        .boton  {
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            font-size: 20px;
+                padding: 12px;
+                background: #0B4DA2;
+                color: white;
+                height: 50px;
+                width: 45%;
+                border-radius: 10px;
+                border: none;
+                margin-top: 20px;
+            }
+
+        .img-info {width: 100%;}
+
+        .titulo-info {
+            font-weight: 300;
+            width: 100%;}
+
+
+        li {list-style: none;
+            display: inline-block;
+            margin: 0px 30px;
+            color: #0B4DA2;
+            font-weight: 700;}
+            
+                ul {display: inline-block;}
 
 
 
+.seccion-azul {
+    width: 100%;
+    height: 100vh;
+    background: #0B4DA2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-azul {
+    color: yellow;
+    font-size: 80px;
+    font-weight: 800;
 
 }
+.p-azul {
+    color:white;
+    font-size: 37px;
+    font-weight: 300;
+}
+
+.contenedor-iconos { display: flex;
+                    justify-content: space-around;
+                    width: 100%;
+                    flex-wrap: wrap;
+                    margin-top: 200px;
+                    
+                }
+
+.contenedor-icono-info { display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    }
+
+.contenedor-icono-info p {text-align: center;
+                            color:white;
+                            margin-top: 20px;
+                            font-size: 25px;
+                            font-weight: 300;}
